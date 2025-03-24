@@ -1,7 +1,7 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
-
 
 
 int main() {
@@ -12,5 +12,12 @@ int main() {
     cout << cri.substr(8,3) << endl;
 
     cout << "Hello World" << endl;
+
+    int num = 10;
+    num = pow(num,5);
+    cout << floor(4.8);
+    cout << fmax(3,10);
+
+
     return 0;
 }

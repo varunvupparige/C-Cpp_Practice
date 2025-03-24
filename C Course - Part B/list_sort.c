@@ -7,7 +7,7 @@ typedef struct list {
     struct list *next;
 }list;
 
-list* create_list(int d)
+list* create_list(int d) {
     list* head = (list *)malloc(sizeof(list));
     if (head == NULL) {
         printf("Memory allocation failed!\n");

@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "LOL.C": "cpp"
-    }
+    },
+    "C_Cpp.default.compilerPath": "C:/MinGW/bin/g++.exe"
 }
