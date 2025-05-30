@@ -13,7 +13,7 @@ int main() {
         printf("%d \n",*(p+i)+6);
     }
 
-    int *ptr = (int *)malloc(sizeof(int));
+    int *ptr = (int *)malloc(sizeof(int));  
     int *ptr1 = (int *)malloc(20);
 
     int *ptr_calloc = (int *)calloc(sizeof(int),20);

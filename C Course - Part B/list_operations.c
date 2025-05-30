@@ -20,7 +20,7 @@ list* create_list(int d) {
 
 list* add_to_front(int d, list* h) {
 
-    list* head = create_list(d);
+    list* head = create_list(d); 
     head -> next = h;
     return head;
 }
@@ -47,6 +47,6 @@ int main() {
     print_list(head);
 
     int arr[] = {5, 96, 2, 3, 5}; 
-    list* head_arr = array_to_list(arr[],5);
+    list* head_arr = array_to_list(arr,5);
     print_list(head_arr);
 }

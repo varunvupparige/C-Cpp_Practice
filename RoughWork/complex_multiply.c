@@ -13,6 +13,7 @@ int main() {
     complex p,q,r;
     q = {20, 15};
     r = {15, 20};
+    
     multi(&p,&q,&r);
 
     printf("Real Part is %f \n",p.re);
