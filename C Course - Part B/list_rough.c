@@ -23,5 +23,5 @@ int main() {
     a.next = &b;
     printf("%d \n",sizeof(a));
 
-
+    printf("end");
 }
