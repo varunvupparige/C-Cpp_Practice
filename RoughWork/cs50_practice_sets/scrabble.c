@@ -35,6 +35,7 @@ int main(void) {
     printf("\nEnter the player 2's word: ");
     scanf("%s", Player2);
 
+    printf("\nAnalyzing........\n");
     int size1 = strlen(Player1);
     int size2 = strlen(Player2);
 
