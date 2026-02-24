@@ -19,3 +19,6 @@ int main() {
         std::cout << i << " " ;
     }
 }
+
+
+// int n = 5; const int *p = &n; int * const p = &n; const int const *p = &n;
