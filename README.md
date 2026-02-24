@@ -1,2 +1,2 @@
 # C_Course_Coursera
-Course Notebook
+Repo with C/C++ practice. 
